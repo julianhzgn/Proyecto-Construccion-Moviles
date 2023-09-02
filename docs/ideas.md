@@ -16,6 +16,14 @@ Algunas de las características adicionales que tengo la intención de incorpora
 
 - Cada receta contará con etiquetas que simplificarán su búsqueda, ya sea en función de su nivel de complejidad, los ingredientes utilizados o el tiempo de preparación, entre otros.
 
+_**Notas post-revision:**_
+
+- Para el almacenamiento de usuarios y sus cuentas, se usará una Base de Datos SQL donde se tendran guardadas el nickname, nombre, apellido, edad, contraseña, recetas favoritas y demas.
+
+- Las recetas serán suministradas a la aplicación por medio de una API, sacada directamente desde la web. Debido a esto es posible que la aplicación en un principio requiera estar conectada a la red la mayor parte del tiempo.
+
+- Desde el inicio de la aplicacion, se tendran al menos entre 20 a 30 recetas disponibles. Estas incrementaran con el tiempo.
+
 ### Aplicaciones similares
 
 - [Cookpad Recetas](https://play.google.com/store/apps/details?id=com.mufumbo.android.recipe.search)
