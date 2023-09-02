@@ -1,33 +1,25 @@
-# Diseño de interfaz de usuario
+# Funcionalidades de la aplicación
 
-La interfaz de usuario de la aplicación CookMaster esta inspirada en la mayoria de interfaces diseñadas y optimizadas para este tipo de aplicaciones.
-Se diseñara una interfaz sencilla y practica que vaya directo al objetivo de la aplicación: Enseñar a cocinar recetas.
+## Restricciones técnicas
 
-En principio los colores estaran basados en tonalidades azules claros, morados con mucha luz y tonalidades blancas (El diseño de la app esta pensado para ser usado en Modo Claro durante el desarrollo)
-A continuación se presentaran las principales pantallas:
+1. Esta aplicación funcionará en dispositivos Android con sistema operativo versión 7 o superior.
 
-1. Pantalla inicial
+2. La información usada en la aplicación es de uso gratuito y será obtenida del API, mientras que los usuarios seran almacenados en una BBDD SQL.
 
-   Al momento de iniciar la aplicacion por primera vez, se mostrara un pequeño resumen/recorrido de lo que el usuario va a encontrar en la aplicación como recetas, tiempos, distintos platos para distintos gustos.
-   Esta pantalla esta pensanda para servir principalmente como una introduccón a la App.
+3. Cualquier información de usuario será almacenada en una Base de Dados relacional SQL.
 
-   -
+## Funcionalidades de usuario
 
-2. Menu principal
-   
-   La pantalla principal de la app se vera un grid con los principales platos de nuestra base de datos pero, si el usuario lo desea podrá ver al iniciar la app su ventana de Favoritos donde tendra a mano todos los
-   que ha ido seleccionando como sus favoritos.
+CookMaster al ser una aplicacion de consulta de recetas, su principal funcionalidad sera la de permiti al usuario consultar e interactuar con recetas de distintos tipos y gustos a través de una interfaz sencilla, amigable y directa. Entre muchas otras cosas, el usuario podrá:
 
-   -
+1. Ver una lista de las recetas disponibles: Una vez el usuario ingresa a la aplicación verá una lista de todas las recetas disponibles.
 
-3. Panel de Opciones
+2. Seleccionar una receta y ver en detalle lo necesario para prepararla: Desde la pantalla inicial podrá seleccionar cualquier receta y cuando lo haga, verá de inmediato la imagen de la receta con mayor tamaño, una descripcion de la misma, sus ingredientes, su tiempo de preparacion y una calificación de los usuarios.
 
-   Adicionalmente el usuario podrá ver deslizando desde la izquierda, un panel de opciones desde el cual tendra disponible todas las caracteristicas de nuestra aplicacion, desde sus apartados favoritos hasta una
-   lista de compra.
+3. Calificar la receta: Dentro de cada receta, se podran ver unas estrellas con las que el usuario podra calificar la receta.
 
-   -
+4. Agregar a favoritos las recetas: Dentro de la misma vista de la receta, se encontrara un boton designado para guardar dicha receta en un panel de favoritos.
 
-4. Vista de la receta.
+5. Realizar un seguimiento de los pasos: en el paso a paso de cada receta, el usuario tendra a su dispocision checkboxes para darle seguimiento a la receta.
 
-   Ya una vez el usuario se decide por una receta, al acceder a la misma se encontrara ya en una vista mas en detalle de la comida. Es en esta ventana donde encontrará una descripcion de la receta, sus ingredientes,
-   una calificacion de los usuarios, su tienpo de preparacion y finalmente el paso a paso para realizarlo.
+6. Busqueda de recetas: el usuario tendra un buscador de recetas, donde podrá buscar tanto po nombre como por ingredientes.
